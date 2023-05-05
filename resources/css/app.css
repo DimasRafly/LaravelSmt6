@@ -1,0 +1,50 @@
+/* Warna latar belakang untuk seluruh halaman */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Ukuran huruf untuk judul dan subjudul */
+  h1, h3 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Ganti warna teks untuk subjudul */
+  h3 {
+    color: #000000;
+  }
+  
+  /* Batas horizontal untuk subjudul */
+  hr {
+    border-top: 3px solid #000000;
+  }
+  
+  /* Warna latar belakang untuk seluruh kotak */
+  .col-md-4, .col-md-8 {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Efek bayangan untuk seluruh kotak */
+  .col-md-4, .col-md-8 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ukuran huruf dan jarak teks untuk judul pekerjaan */
+  ul li strong {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Ukuran huruf dan jarak teks untuk detail pekerjaan */
+  ul li p, ul li ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Ganti warna teks untuk daftar keterampilan */
+  ul li {
+    font-size: 18px;
+    color: #000000;
+  }
