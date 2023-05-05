@@ -26,7 +26,7 @@
         <h3>Personal Information</h3>
         <div class="row">
           <div class="col-sm-4">Name :</div>
-          <div class="col-sm-8">Dimas Rafly Thanos</div>
+          <div class="col-sm-8">Dimas Rafly</div>
         </div>
         <div class="row">
           <div class="col-sm-4">Email :</div>
