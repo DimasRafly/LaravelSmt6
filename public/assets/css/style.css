@@ -16,13 +16,13 @@ body {
   
   /* Batas horizontal untuk subjudul */
   hr {
-    border-top: 3px solid #000000;
+    border-top: 4px solid #000000;
   }
   
   /* Warna latar belakang untuk seluruh kotak */
   .col-md-4, .col-md-8 {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
   }
   
@@ -45,6 +45,6 @@ body {
   
   /* Ganti warna teks untuk daftar keterampilan */
   ul li {
-    font-size: 18px;
+    font-size: 15px;
     color: #000000;
   }
