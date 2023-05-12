@@ -1,50 +1,106 @@
 /* Warna latar belakang untuk seluruh halaman */
 body {
-    background-color: #f2f2f2;
-  }
-  
-  /* Ukuran huruf untuk judul dan subjudul */
-  h1, h3 {
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  /* Ganti warna teks untuk subjudul */
-  h3 {
-    color: #000000;
-  }
-  
-  /* Batas horizontal untuk subjudul */
-  hr {
-    border-top: 4px solid #000000;
-  }
-  
-  /* Warna latar belakang untuk seluruh kotak */
-  .col-md-4, .col-md-8 {
-    background-color: #fff;
-    padding: 30px;
-    margin-bottom: 20px;
-  }
-  
-  /* Efek bayangan untuk seluruh kotak */
-  .col-md-4, .col-md-8 {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Ukuran huruf dan jarak teks untuk judul pekerjaan */
-  ul li strong {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  /* Ukuran huruf dan jarak teks untuk detail pekerjaan */
-  ul li p, ul li ul li {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  /* Ganti warna teks untuk daftar keterampilan */
-  ul li {
-    font-size: 15px;
-    color: #000000;
-  }
+  background-color: #f2f2f2;
+}
+
+/* Ukuran huruf untuk judul dan subjudul */
+h1,
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Ganti warna teks untuk subjudul */
+h3 {
+  color: #000000;
+}
+
+/* Batas horizontal untuk subjudul */
+hr {
+  border-top: 4px solid #000000;
+}
+
+/* Warna latar belakang untuk seluruh kotak */
+.col-md-4,
+.col-md-8 {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+/* Efek bayangan untuk seluruh kotak */
+.col-md-4,
+.col-md-8 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ukuran huruf dan jarak teks untuk judul pekerjaan */
+ul li strong {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Ukuran huruf dan jarak teks untuk detail pekerjaan */
+ul li p,
+ul li ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Ganti warna teks untuk daftar keterampilan */
+ul li {
+  font-size: 15px;
+  color: #000000;
+}
+
+/* .card-image{
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+  } */
+.card {
+  width: 18rem;
+  margin: 12px 0;
+  padding: 8px;
+}
+
+.card-body {
+  /* padding: 0; */
+  height: 200px;
+  overflow-y: auto;
+}
+
+.card-body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.card-body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.card-body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+	background-color: #555;
+}
+
+.card-image {
+  height: 200px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 100%;
+}
